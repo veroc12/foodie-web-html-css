@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo-container">
+      <img class="logo" src="./logo.svg" alt="Logo Foodie">
+      <p><b>foodie</b></p>
+    </div>
+    <nav class="nav">
+      <a class="link" href="index.html">Restaurants</a>
+      <a class="link" href="index.html">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="title">What are you <span class="title-highlight">craving</span><span class="title-mark">?</span></h1>
+
+      <form class="search">
+        <div class="search-field">
+          <label for="search">Search for a restaurant or cuisine</label>
+          <input type="text" id="search" name="search" class="input">
+        </div>
+        <button type="submit" class="primary-button">Find food</button>
+      </form>
+
+      <div class="chips" role="group" aria-label="Search by category">
+        <button type="button" class="chip is-active" aria-pressed="true">All</button>
+        <button type="button" class="chip" aria-pressed="false">Vegan</button>
+        <button type="button" class="chip" aria-pressed="false">Sushi</button>
+        <button type="button" class="chip" aria-pressed="false">Pizza</button>
+      </div>
+
+      <div class="card-box">
+        <article class="card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="" alt="Dish by Just Salad">
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Just Salad</h2>
+              <p>Healthy - Vegan</p>
+              <p class="text-accent">Free delivery</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="link" href="index.html">View Menu</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="" alt="Dish by Just Salad">
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Just Salad</h2>
+              <p>Healthy - Vegan</p>
+              <p class="text-accent">Free delivery</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="link" href="index.html">View Menu</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="" alt="Dish by Just Salad">
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Just Salad</h2>
+              <p>Healthy - Vegan</p>
+              <p class="text-accent">Free delivery</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="link" href="index.html">View Menu</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Made with <span class="heart" aria-label="heart">&hearts;</span> by Veronica &middot; &copy; 2026</p>
+  </footer>
+</body>
+</html>
